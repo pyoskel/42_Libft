@@ -6,12 +6,11 @@
 /*   By: pbartoch <pbartoch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 18:22:45 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/10/24 18:59:43 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/10/31 18:33:06 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
 
 int	ft_tolower(int c)
 {

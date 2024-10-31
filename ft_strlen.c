@@ -6,25 +6,24 @@
 /*   By: pbartoch <pbartoch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 20:35:20 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/10/17 22:07:22 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/10/31 18:32:52 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
 
 int	ft_strlen(char *s)
 {
-	int	length;
+	int	len;
 
-	length = 0;
+	len = 0;
 
 	while (*s != '\0')
 	{
-		length++;
+		len++;
 		s++;
 	}
-	return (length);
+	return (len);
 }
 
 // int	main(void)

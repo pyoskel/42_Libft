@@ -6,20 +6,17 @@
 /*   By: pbartoch <pbartoch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 22:20:13 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/10/28 15:27:22 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/10/31 18:39:50 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stddef.h>
-// #include <stdio.h>
 
 void	*ft_memset(void *b, int c, size_t len)
 {
 	unsigned char	*p;
 
 	p = (unsigned char *)b;
-
 	while (len > 0)
 	{
 		*p = (unsigned char)c;

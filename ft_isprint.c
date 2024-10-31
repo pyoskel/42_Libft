@@ -6,12 +6,11 @@
 /*   By: pbartoch <pbartoch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 19:55:42 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/10/11 20:39:37 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/10/31 18:28:58 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include "stdio.h"
 
 int	ft_isprint(int c)
 {

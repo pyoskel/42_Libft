@@ -6,12 +6,11 @@
 /*   By: pbartoch <pbartoch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 23:39:09 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/10/11 20:10:48 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/10/31 18:29:09 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include "stdio.h"
 
 int	ft_isascii(int c)
 {
