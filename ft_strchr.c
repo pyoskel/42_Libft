@@ -6,7 +6,7 @@
 /*   By: pbartoch <pbartoch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 20:25:08 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/10/31 18:48:32 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/11/02 19:09:43 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,10 @@ const char	*ft_strchr(const char *s, int c)
 			return (s);
 		}
 		s++;
+	}
+	if ((char)c == '\0')
+	{
+		return (s);
 	}
 	return (NULL);
 }
