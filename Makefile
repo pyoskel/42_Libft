@@ -6,7 +6,7 @@
 #    By: pbartoch <pbartoch@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/30 02:17:02 by pbartoch          #+#    #+#              #
-#    Updated: 2024/10/31 18:35:42 by pbartoch         ###   ########.fr        #
+#    Updated: 2024/11/02 18:49:26 by pbartoch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,8 @@ NAME = libft.a
 CFLAGS = -Wall -Werror -Wextra
 
 SOURCE =	ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c \
-			ft_memset.c ft_strchr.c ft_strlcpy.c ft_tolower.c ft_toupper.c ft_strlen.c
+			ft_memcpy.c ft_memset.c ft_strchr.c ft_strlcpy.c ft_tolower.c ft_toupper.c \
+			ft_strlen.c
 
 OBJECTS = $(SOURCE:.c=.o)
 
