@@ -6,13 +6,35 @@
 /*   By: pbartoch <pbartoch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 03:07:13 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/10/31 18:03:50 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/11/04 03:20:27 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_bzero(void *s, size_t len)
+void	ft_bzero(void *s, size_t n)
 {
-	ft_memset(s, 0, len);
+	char	*p;
+
+	p = (char *)s;
+	while (n > 0)
+	{
+		*p = 0;
+		p++;
+		n--;
+	}
 }
+
+// int	main(void)
+// {
+// 	char str[20] = "Hallo Reisender";
+// 	ft_bzero(str, 9);
+// 	printf("%s\n", str + 9);
+// 	return (0);
+// }
+
+// // Alte Funktion:
+// void	ft_bzero(void *s, size_t len)
+// {
+// 	ft_memset(s, 0, len);
+// }
