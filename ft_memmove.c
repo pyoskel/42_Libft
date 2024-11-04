@@ -6,7 +6,7 @@
 /*   By: pbartoch <pbartoch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 19:58:55 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/11/04 23:53:24 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/11/04 23:54:41 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 	d = (unsigned char *)dest;
 	s = (const unsigned char *)src;
 	i = 0;
-	if (d > s)
+	if (d > s && d < s + len)
 	{
 		while (len > 0)
 		{
