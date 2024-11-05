@@ -6,7 +6,7 @@
 /*   By: pbartoch <pbartoch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 20:35:20 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/11/03 22:20:56 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/11/05 03:55:47 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,8 @@ size_t	ft_strlen(const char *s)
 	size_t	i;
 
 	i = 0;
-	while (*s != '\0')
-	{
+	while (s[i] != '\0')
 		i++;
-		s++;
-	}
 	return (i);
 }
 
