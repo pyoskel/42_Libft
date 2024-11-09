@@ -6,7 +6,7 @@
 #    By: pbartoch <pbartoch@student.42heilbronn.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/30 02:17:02 by pbartoch          #+#    #+#              #
-#    Updated: 2024/11/09 16:23:51 by pbartoch         ###   ########.fr        #
+#    Updated: 2024/11/09 20:02:14 by pbartoch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,8 +17,8 @@ CFLAGS = -Wall -Werror -Wextra
 
 SOURCE =	ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c \
 			ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_strchr.c \
-			ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strncmp.c ft_strrchr.c ft_tolower.c \
-			ft_toupper.c 
+			ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strncmp.c ft_strnstr.c ft_strrchr.c \
+			ft_tolower.c ft_toupper.c 
 
 OBJECTS = $(SOURCE:.c=.o)
 
