@@ -6,7 +6,7 @@
 /*   By: pbartoch <pbartoch@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 17:29:31 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/11/09 20:01:35 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/11/11 20:18:39 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <string.h>
 # include <stddef.h>
 
+int			ft_atoi(const char *str);
 void		ft_bzero(void *s, size_t n);
 int			ft_isalnum(int c);
 int			ft_isalpha(int c);
