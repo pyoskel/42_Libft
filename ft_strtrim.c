@@ -6,7 +6,7 @@
 /*   By: pbartoch <pbartoch@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 04:46:42 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/11/15 21:57:32 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/11/15 21:59:45 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,14 +50,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	result[i] = '\0';
 	return (result);
 }
-
-// int main(void)
-// {
-//     char *result;
-
-//     // Test case 1: Regular trimming
-//     result = ft_strtrim("   Hello, World!   ", " ");
-//     printf("Test 1: '%s'\n", result);
-//     free(result);
-// 	return (0);
-// }
