@@ -6,7 +6,7 @@
 /*   By: pbartoch <pbartoch@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 03:13:33 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/11/15 04:23:12 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/11/15 21:34:31 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,10 @@ static int	count_len(int n)
 	return (len);
 }
 
+/// @brief 
+/// @param n 
+/// @param len describes lenght of number 
+/// @return size_t etc...
 static char	*negativ_nmb(int n, int len)
 {
 	char	*neg_result;
@@ -40,7 +44,6 @@ static char	*negativ_nmb(int n, int len)
 	neg_result[len] = '\0';
 	neg_result[0] = '-';
 	n = -n;
-
 	while (n > 0)
 	{
 		neg_result[--len] = (n % 10) + '0';
@@ -49,6 +52,9 @@ static char	*negativ_nmb(int n, int len)
 	return (neg_result);
 }
 
+/// @brief 
+/// @param n 
+/// @return 
 char	*ft_itoa(int n)
 {
 	char	*result;
