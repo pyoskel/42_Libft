@@ -6,7 +6,7 @@
 /*   By: pbartoch <pbartoch@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 17:29:31 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/11/15 21:29:45 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/11/16 03:16:30 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ void		ft_putstr_fd(char *s, int fd);
 char		*ft_strchr(const char *s, int c);
 char		*ft_strdup(const char *s1);
 void		ft_striteri(char *s, void (*f)(unsigned int, char*));
+char		*ft_strjoin(char const *s1, char const *s2);
 size_t		ft_strlcat(char *dest, const char *src, size_t size);
 size_t		ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t		ft_strlen(const char *s);
