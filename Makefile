@@ -6,7 +6,7 @@
 #    By: pbartoch <pbartoch@student.42heilbronn.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/30 02:17:02 by pbartoch          #+#    #+#              #
-#    Updated: 2024/11/16 03:16:54 by pbartoch         ###   ########.fr        #
+#    Updated: 2024/11/16 06:05:48 by pbartoch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,6 +45,7 @@ SOURCE =	ft_atoi.c \
 			ft_strnstr.c \
 			ft_strrchr.c \
 			ft_strtrim.c \
+			ft_substr.c \
 			ft_tolower.c \
 			ft_toupper.c 
 
