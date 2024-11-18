@@ -6,14 +6,13 @@
 /*   By: pbartoch <pbartoch@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 17:29:31 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/11/17 05:48:17 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/11/18 21:17:11 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdio.h>
 # include <string.h>
 # include <stddef.h>
 # include <stdlib.h>

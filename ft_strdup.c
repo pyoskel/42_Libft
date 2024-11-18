@@ -6,12 +6,11 @@
 /*   By: pbartoch <pbartoch@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 22:42:25 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/11/16 02:19:56 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/11/18 21:25:41 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 char	*ft_strdup(const char *s1)
 {

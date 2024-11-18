@@ -6,7 +6,7 @@
 /*   By: pbartoch <pbartoch@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/16 02:59:36 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/11/18 03:07:58 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/11/18 21:24:56 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,6 +111,7 @@ char	**ft_split(char const *s, char c)
 	return (main_logic(word_count, s, array, c));
 }
 
+// Verstaendniss fuer ft_split
 // char [0][6] == a
 // 		0|--char * == 'Chars are awesome'[3]
 // 		1|--char *
