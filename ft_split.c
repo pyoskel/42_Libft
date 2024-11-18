@@ -6,7 +6,7 @@
 /*   By: pbartoch <pbartoch@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/16 02:59:36 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/11/17 21:02:16 by pbartoch         ###   ########.fr       */
+/*   Updated: 2024/11/18 03:07:58 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,16 +79,13 @@ static char	**main_logic(int word_count, const char *s, char **array, char c)
 
 	i = 0;
 	j = 0;
-	while (s[i] != '\0' && (j <= word_count))
+	while (s != NULL && s[i] != '\0' && (j < word_count))
 	{
 		if (s[i] != c)
 		{
 			array[j] = ft_word_copy(&s[i], c);
 			if (!array[j])
-			{
-				ft_free_split(array, j);
-				return (NULL);
-			}
+				return (ft_free_split(array, j), NULL);
 			j++;
 			while (s[i] != '\0' && s[i] != c)
 				i++;
@@ -107,17 +104,8 @@ char	**ft_split(char const *s, char c)
 
 	if (!s)
 		return (NULL);
-	if (c == '\0')
-	{
-		array = (char **)malloc(2 * sizeof(char *));
-		if (!array)
-			return (NULL);
-		array[0] = ft_word_copy(s, c);
-		array[1] = NULL;
-		return (array);
-	}
 	word_count = ft_word_counting(s, c);
-	array = (char **)malloc((word_count + 1) * sizeof(char *));
+	array = (char **)ft_calloc(sizeof(char *), word_count + 1);
 	if (!array)
 		return (NULL);
 	return (main_logic(word_count, s, array, c));
@@ -128,3 +116,23 @@ char	**ft_split(char const *s, char c)
 // 		1|--char *
 // 		2|--char *
 // 		3|--char *
+
+// int	main(void)
+// {
+// 	char	*str;
+// 	char	**strings;
+// 	char	c;
+// 	int		i;
+
+// 	// str = "nonempty";
+// 	str = "noempty";
+// 	c = ' ';
+// 	strings = ft_split(str, 0:'\0');
+// 	i = 0;
+// 	while (strings != NULL && strings[i] != NULL)
+// 	{
+// 		printf("%s\n", strings[i]);
+// 		i++;
+// 	}
+// 	return (0);
+// }
