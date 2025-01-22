@@ -6,7 +6,7 @@
 /*   By: pbartoch <pbartoch@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 17:29:31 by pbartoch          #+#    #+#             */
-/*   Updated: 2024/11/18 21:17:11 by pbartoch         ###   ########.fr       */
+/*   Updated: 2025/01/21 19:21:33 by pbartoch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stddef.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdio.h>
 
 int			ft_atoi(const char *str);
 void		ft_bzero(void *s, size_t n);
